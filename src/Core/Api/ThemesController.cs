@@ -19,6 +19,7 @@ namespace Core.Api
         IStorageService _store;
         BlogItem _blog;
 
+// comment
         public ThemesController(IDataService data, IStorageService store)
         {
             _data = data;
